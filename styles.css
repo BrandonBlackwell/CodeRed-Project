@@ -4,12 +4,19 @@
   /*box-sizing: border-box;*/
 }
 body{
-  color: white;
-  background-color: #4169e1;
+  /*background-color: #4169e1;*/
+  height: 100vh;
+  background: linear-gradient(
+    100deg,
+    #4169e1,
+    #1d44b8
+    
+  );
   text-align: center;
 } 
 /*This is for the title logo*/
 .tittlelogo{
+
   width: 10px;
   height: 10px;
 }
@@ -17,8 +24,8 @@ body{
 /*This is for the logo*/
 .logo{
   
-  height: 1000px;
-  width: 1000px;
+  height: 800px;
+  width: 800px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 55%;
