@@ -8,6 +8,26 @@ body{
   background-color: #4169e1;
   text-align: center;
 } 
+/*This is for the logo*/
+.logo{
+  
+  height: 1000px;
+  width: 1000px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 65%;
+  
+}
+.l{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 5%;
+  left: 5%;
+}
+
+
 /*this is for the cart*/
 .cart{
   
@@ -63,11 +83,9 @@ body{
 .searchwrapper button:hover{
   background-color: #4169e1;
   color: white;
+  cursor: pointer;
 }
-/*this is for when the button is active*/
-.searchwrapper button:active ~ .searchwrapper{
-  height: 300px;
-}
+
 
 /*this is for the searchbar*/
 .searchwrapper input{
@@ -83,4 +101,12 @@ body{
 ::placeholder { 
   color: #4169e1;
   opacity: 0.5; 
+}
+
+/*for the cart button*/
+#cartbtn{
+  background-color: #4169e1;
+  border: none;
+  cursor: pointer;
+
 }
