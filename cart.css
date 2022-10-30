@@ -14,8 +14,8 @@ table {
 th {
   text-align: left;
   padding: 5px;
-  color: #4169e1;
-  background: rgba(red, green, blue, alpha);
+  color: #f8f8f8;
+  background: #4169e1;
   font-weight: normal;
 }
 
@@ -28,7 +28,7 @@ td input {
   padding: 5px;
 }
 td a {
-  color: rgba(red, green, blue, alpha);
+  color: #4169e1;
   font-size: 12px;
 }
 td img {
@@ -36,4 +36,20 @@ td img {
   height: 80px;
   margin-right: 10px;
 }
-hello
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid #4169e1;
+  width: 100%;
+  max-width: 400px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
