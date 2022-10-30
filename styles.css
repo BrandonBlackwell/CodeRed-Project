@@ -1,3 +1,86 @@
-.Header {
-  background-color: yellow;
+*{
+  padding: 0;
+  margin: 0;
+  /*box-sizing: border-box;*/
+}
+body{
+  color: white;
+  background-color: #4169e1;
+  text-align: center;
+} 
+/*this is for the cart*/
+.cart{
+  
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 5%;
+  right: 0.1px;
+  
+}
+/*This is for the image in the cart*/
+.cart img{
+  height: 50px;
+  width: 50px;
+}
+
+/*this is the background div*/
+.topnav{
+  background-color: white;
+  width: 800px;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 0 20px 20px rgba(8,21,65,0.25);
+  transition-duration: 0.5s;
+}
+
+/*this is the div that contains the serch bar and button*/
+.searchwrapper{
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+
+/*this is for the search button*/
+.searchwrapper button{
+  font size :1 em;
+  padding: 0.8em 0;
+  transition-duration: 0.4s;
+  border: solid;
+  border-color: #4169e1;
+  border-radius: 20px;
+  background-color: white;
+  color: #4169e1;
+  border-width: 1.5px;
+}
+/*this is or the hover effect*/
+.searchwrapper button:hover{
+  background-color: #4169e1;
+  color: white;
+}
+/*this is for when the button is active*/
+.searchwrapper button:active ~ .searchwrapper{
+  height: 300px;
+}
+
+/*this is for the searchbar*/
+.searchwrapper input{
+  font-size: 1em;
+  padding: 0 0.62em;
+  border: none;
+  border-bottom: 1.5px solid #4169e1;
+  outline: none;
+  color: #4169e1;
+}
+
+/*for the placeholder of the search bar*/
+::placeholder { 
+  color: #4169e1;
+  opacity: 0.5; 
 }
