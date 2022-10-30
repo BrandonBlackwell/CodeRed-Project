@@ -14,8 +14,8 @@ table {
 th {
   text-align: left;
   padding: 5px;
-  color: #4169e1;
-  background: rgba(red, green, blue, alpha);
+  color: #f8f8f8;
+  background: #4169e1;
   font-weight: normal;
 }
 
@@ -28,7 +28,7 @@ td input {
   padding: 5px;
 }
 td a {
-  color: rgba(red, green, blue, alpha);
+  color: ;
   font-size: 12px;
 }
 td img {
